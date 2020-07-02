@@ -98,6 +98,9 @@ body.no-scroll {overflow-y:hidden;}
 .modal .btn_link {display:inline-block; margin-top:5px; padding:5px 30px; background:#dc6060; color:#fff; font-size:15px; border:1px solid #dc6060; transition:all .3s;}
 .modal .btn_link:focus,
 .modal .btn_link:hover {color:#dc6060; background:#fff;}
+.modal .btn_link.disabled {background: #ccc;border-color: #f3f3f3;cursor:default;}
+.modal .btn_link.disabled:focus,
+.modal .btn_link.disabled:hover {color: #fff;}
 .modal img {width:100%; margin-top:20px;}
 .modal_close {position:absolute; top:-50px; right:0; width:40px; height:40px;}
 .modal_close:before {display:block; content:''; position:absolute; top:0; left:50%; width:2px; height:40px; background:#fff; transform:rotate(45deg);}
@@ -124,8 +127,8 @@ body.no-scroll {overflow-y:hidden;}
 	.profile_description li {font-size:17px;}
 	.portfolio .title {font-size:16px;}
 	.portfolio .item_list .title {font-size:16px;}
-	.modal {text-align:center;}
-	.modal .inner {max-width:650px;}
+	.modal {text-align:center; overflow-y:scroll;}
+	.modal .inner {max-width:650px;margin-top: 60px;margin-bottom: 30px;}
 	.modal .modal_tit {padding:20px 30px; font-size:20px;}
 	.modal .modal_cont {padding:20px 30px;}
 	.modal .desc li {font-size:15px;}
@@ -137,7 +140,7 @@ body.no-scroll {overflow-y:hidden;}
 	.section_cont .inner_wrap {width:1100px; margin:0 auto; padding:140px 0 120px;}
 	.section_cont .h2_tit {margin-bottom:60px; font-size:52px;}
 	.profile_info {width:290px;}
-	.profile_description {display:inline-block; width:600px; margin-top:67px; margin-left:20px; padding-top:0; border-top:none;}
+	.profile_description {display:inline-block; width:600px; margin-top:47px; margin-left:20px; padding-top:0; border-top:none;}
 	#section_skill .inner_wrap {background-size:100% auto;}
 	.skil_info {display:inline-block; width:530px; margin-left:80px; vertical-align:middle;}
 	.skil_info li {font-size:17px;}

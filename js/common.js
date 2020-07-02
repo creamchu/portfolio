@@ -57,15 +57,15 @@ $(document).ready(function(){
 		$modal_this;
 	$(".portfolio .title").on("click", function(){
 		$modal = $(this).attr("data-modal");
-		$(".modal[data-modal=" + $modal + "]").addClass("active");
+		$modal_this = $('#'+$modal);
+		$modal_this.addClass("active");
 		$("body").addClass("no-scroll");
-		$(".modal[data-modal=" + $modal + "]").attr('tabindex', "0").focus();
-		$modal_this = $(this);
+		$modal_this.attr('tabindex', "0").focus();
 	});
 	$(".modal_close").on("click", function(){
 		$(".modal").removeClass("active");
 		$("body").removeClass("no-scroll");
-		$(".modal[data-modal=" + $modal + "]").attr('tabindex', "-1").focus();
+		$modal_this.attr('tabindex', "-1").focus();
 		$modal_this.focus();
 	});
 
