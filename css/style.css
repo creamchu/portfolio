@@ -104,9 +104,9 @@ body.no-scroll {overflow-y:hidden;}
 .modal .modal_tit {padding:15px;background:#5c46b5;color:#fff;font-size:16px;}
 .modal .modal_cont {padding:15px;}
 .modal .desc li {margin-top:5px;font-size:14px;line-height:1.3;}
-.modal .btn_link {display:inline-block;margin-top:5px;padding:5px 30px;background:#dc6060;color:#fff;font-size:15px;border:1px solid #dc6060;transition:all .3s;}
+.modal .btn_link {display:inline-block;margin-top:5px;padding:5px 30px;background:#1955af;color:#fff;font-size:15px;border:1px solid #1955af;transition:all .3s;}
 .modal .btn_link:focus,
-.modal .btn_link:hover {color:#dc6060;background:#fff;}
+.modal .btn_link:hover {color:#1955af;background:#fff;}
 .modal .btn_link.disabled {background: #ccc;border-color: #f3f3f3;cursor:default;}
 .modal .btn_link.disabled:focus,
 .modal .btn_link.disabled:hover {color: #fff;}
@@ -179,5 +179,5 @@ body.no-scroll {overflow-y:hidden;}
 	.portfolio .item_list > li {height:40px;}
 
 	/* animate shape */
-	#animate_shape {display:block;}
+	#animate_shape {display:block;z-index:3;}
 }
