@@ -61,12 +61,12 @@ body.is_ovhideen {overflow-y:hidden;}
 .myinfo {margin-top:100vh;text-align:center;}
 .myinfo_box img {display:block;width:150px;margin:0 auto;}
 .myinfo_head {margin-top:30px;vertical-align:top;}
-.myinfo_head li {position:relative;margin-bottom:7px;color:#666;font-size:16px;}
-.myinfo_head li.name {margin-bottom:20px;color:#444;font-size:20px;font-weight:bold;}
-.myinfo_head li a {color:#666;}
+.myinfo_head li {position:relative;margin-bottom:7px;color:#333;font-size:16px;}
+.myinfo_head li.name {margin-bottom:20px;font-size:20px;font-weight:bold;}
+.myinfo_head li a {color:#333;}
 .myinfo_head li a:hover {color:#aa66dc;}
 .myinfo_list {margin-top:50px;vertical-align:top;text-align:left;}
-.myinfo_list li {position:relative;margin-top:10px;padding-left:10px;color:#666;font-size:16px;}
+.myinfo_list li {position:relative;margin-top:10px;padding-left:10px;color:#333;font-size:16px;}
 .myinfo_list li:first-child {margin-top:0;}
 .myinfo_list li:before {display:block;content:'';position:absolute;top:7px;left:0;width:4px;height:4px;background:#222;border-radius:100%;;}
 
