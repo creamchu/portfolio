@@ -125,6 +125,8 @@ body.is_ovhideen {overflow-y:hidden;}
 .popup .popup_cont .btn_link.disabled {background: #ccc;border-color: #f3f3f3;cursor:default;}
 .popup .popup_cont .btn_link.disabled:focus,
 .popup .popup_cont .btn_link.disabled:hover {color: #fff;}
+.popup .popup_cont .img_wrap {display:flex;align-items:flex-start;justify-content:space-between;}
+.popup .popup_cont .img_wrap img {width:48%;}
 .popup .popup_cont img {width:100%;margin-top:20px;}
 .popup_close {position:absolute;top:-50px;right:0;width:40px;height:40px;}
 .popup_close:before {display:block;content:'';position:absolute;top:0;left:50%;width:2px;height:40px;background:#fff;transform:rotate(45deg);}
