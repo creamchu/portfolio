@@ -128,9 +128,9 @@ body.is_ovhideen {overflow-y:hidden;}
 .popup .popup_cont .img_wrap {display:flex;align-items:flex-start;justify-content:space-between;}
 .popup .popup_cont .img_wrap img {width:48%;}
 .popup .popup_cont img {width:100%;margin-top:20px;}
-.popup_close {position:absolute;top:-50px;right:0;width:40px;height:40px;}
-.popup_close:before {display:block;content:'';position:absolute;top:0;left:50%;width:2px;height:40px;background:#fff;transform:rotate(45deg);}
-.popup_close:after {display:block;content:'';position:absolute;top:0;left:50%;width:2px;height:40px;background:#fff;transform:rotate(-45deg);}
+.popup_close {position:absolute;top:10px;right:10px;width:30px;height:30px;}
+.popup_close:before {display:block;content:'';position:absolute;top:0;left:50%;width:2px;height:30px;background:#fff;transform:rotate(45deg);}
+.popup_close:after {display:block;content:'';position:absolute;top:0;left:50%;width:2px;height:30px;background:#fff;transform:rotate(-45deg);}
 
 /* tablet */
 @media only screen and (min-width:768px) {
@@ -170,6 +170,9 @@ body.is_ovhideen {overflow-y:hidden;}
 	.popup .popup_tit {padding:20px 30px;font-size:20px;}
 	.popup .popup_cont {padding:20px 30px;}
 	.popup .desc li {font-size:15px;}
+	.popup_close {top:12px;right:12px;width:40px;height:40px;}
+	.popup_close:before {height:40px;}
+	.popup_close:after {height:40px;}
 }
 
 /* pc */
