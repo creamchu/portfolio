@@ -10,20 +10,39 @@
 /* 웹폰트 */
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css');
 
+@font-face{
+  font-family:"NotoSansKR";
+  font-style:normal;
+  font-weight:400;
+  src:url("../font/NotoSansKR-Regular.eot");
+  src:url("../font/NotoSansKR-Regular.eot?#iefix") format("embedded-opentype"),
+      url("../font/NotoSansKR-Regular.woff2") format("woff2"),
+      url("../font/NotoSansKR-Regular.woff") format("woff");
+}
+@font-face{
+  font-family:"NotoSansKR";
+  font-style:normal;
+  font-weight:700;
+  src:url("../font/NotoSansKR-Bold.eot");
+  src:url("../font/NotoSansKR-Bold.eot?#iefix") format("embedded-opentype"),
+      url("../font/NotoSansKR-Bold.woff2") format("woff2"),
+      url("../font/NotoSansKR-Bold.woff") format("woff");
+}
+
 html,body,div,p,iframe,frameset, h1,h2,h3,h4,h5,h6, strong,span,b,em,var,label,legend, ul,ol,li,dl,dt,dd,
 table,thead,tbody,tfoot,tr,th,td,caption, form,fieldset,input,textarea, sub,sup,img,a,del,button,pre,
 header,footer,section,article,aside,figure,figcaption{padding:0;margin:0;}
 /* 목록 스타일 리셋 */
 ul, ol, li{list-style:none;}
 /* 태그 리셋 */
-button{background:transparent;font-family:'Pretendard','돋움','dotum','AppleGothic','AppleSDGothicNeo','Helvetica',sans-serif;vertical-align:middle;border:none;cursor:pointer;}
+button{background:transparent;font-family:'NotoSansKR','돋움','dotum','AppleGothic','AppleSDGothicNeo','Helvetica',"Malgun Gothic", sans-serif;vertical-align:middle;border:none;cursor:pointer;}
 img{vertical-align:top;}
 img,fieldset,table{border:0;}
 em, address, del{font-style:normal;}
 a{display:inline-block;}
 strong, em{font-weight:700;}
 /* form */
-input,select,label,textarea{border-radius:0;-webkit-border-radius:0;background-color:transparent;color:#000;font-size:14px;line-height:normal;font-family:'Pretendard','돋움','dotum','AppleGothic','AppleSDGothicNeo','Helvetica',sans-serif;vertical-align:middle;}
+input,select,label,textarea{border-radius:0;-webkit-border-radius:0;background-color:transparent;color:#000;font-size:14px;line-height:normal;font-family:'NotoSansKR','돋움','dotum','AppleGothic','AppleSDGothicNeo','Helvetica',sans-serif;vertical-align:middle;}
 input[type='text'],input[type='password'],input[type='submit'],input[type='search']{-webkit-appearance:none;border-radius:0;}
 input:checked[type='checkbox']{-webkit-appearance:checkbox;}
 input[type='button'],input[type='submit'],input[type='reset'],input[type='file']{-webkit-appearance:button;border:0 none;cursor:pointer;}
@@ -42,7 +61,7 @@ a:active,a:hover{text-decoration:none}
 
 /* body, html */
 html{font-size:10px;}
-body{font-family:'Pretendard','돋움','dotum','AppleGothic','AppleSDGothicNeo','Helvetica',sans-serif;font-weight:400;font-size:14px;color:#000;line-height:1.2;-webkit-text-size-adjust:none;-moz-text-size-adjust:none;-ms-text-size-adjust:none;-o-text-size-adjust:none;}
+body{font-family:'NotoSansKR','돋움','dotum','AppleGothic','AppleSDGothicNeo','Helvetica',sans-serif;font-weight:400;font-size:14px;color:#000;line-height:1.2;-webkit-text-size-adjust:none;-moz-text-size-adjust:none;-ms-text-size-adjust:none;-o-text-size-adjust:none;}
 
 /* 대체텍스트 and 숨김처리 */
 caption, legend, .hidden, .hide{overflow:hidden;position:absolute;width:1px;height:1px;margin:-1px;padding:0;border:0;white-space:normal;word-wrap:break-word;word-break:break-all;clip:rect(0,0,0,0);}
